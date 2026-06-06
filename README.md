@@ -1,8 +1,15 @@
-# 📦 Inventory & Order Management System
+##  Live Links
+-  Frontend: https://orderly-green-two.vercel.app
+-  Backend API: https://orderly-backend-v83g.onrender.com/docs
+-  Docker Hub: https://hub.docker.com/r/umathumma/orderly-backend
+-  GitHub: https://github.com/ThummaUma/orderly
+
+
+#  Inventory & Order Management System
 
 A full-stack Inventory & Order Management System built with **FastAPI**, **React**, and **PostgreSQL**, fully containerized with Docker.
 
-## 🏗️ Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |-------|-----------|
@@ -12,7 +19,7 @@ A full-stack Inventory & Order Management System built with **FastAPI**, **React
 | Containerization | Docker, Docker Compose |
 | Web Server | Nginx (frontend) |
 
-## ✅ Features
+##  Features
 
 - **Product Management** — CRUD with unique SKU enforcement, stock tracking, categories
 - **Customer Management** — CRUD with unique email enforcement
@@ -22,7 +29,7 @@ A full-stack Inventory & Order Management System built with **FastAPI**, **React
 
 ---
 
-## 🚀 Quick Start (Local with Docker)
+##  Quick Start (Local with Docker)
 
 ### Prerequisites
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/) installed and running
@@ -48,7 +55,7 @@ docker-compose up --build
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 inventory-system/
@@ -88,7 +95,7 @@ inventory-system/
 
 ---
 
-## 🔌 API Endpoints
+##  API Endpoints
 
 ### Products
 | Method | Endpoint | Description |
@@ -122,7 +129,7 @@ inventory-system/
 
 ---
 
-## ☁️ Deployment Guide
+## Deployment Guide
 
 ### Backend → Render
 
@@ -157,7 +164,7 @@ Copy the connection string to your backend's `DATABASE_URL`.
 
 ---
 
-## 🐳 Docker Hub
+##  Docker Hub
 
 To push your backend image:
 
@@ -168,7 +175,7 @@ docker push yourusername/inventory-backend:latest
 
 ---
 
-## ⚙️ Environment Variables
+## Environment Variables
 
 | Variable | Description | Default |
 |----------|-------------|---------|
@@ -181,7 +188,7 @@ docker push yourusername/inventory-backend:latest
 
 ---
 
-## 📖 Business Rules Implemented
+##  Business Rules Implemented
 
 1. **Unique SKU** — Creating a product with a duplicate SKU returns HTTP 400
 2. **Unique Email** — Creating a customer with a duplicate email returns HTTP 400
