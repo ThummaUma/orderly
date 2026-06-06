@@ -38,7 +38,7 @@ A full-stack Inventory & Order Management System built with **FastAPI**, **React
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/YOUR_USERNAME/inventory-system.git
+git clone https://github.com/ThummaUma/orderly.git
 cd inventory-system
 
 # 2. Create your .env file
